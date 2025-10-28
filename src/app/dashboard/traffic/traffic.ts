@@ -4,8 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-traffic',
   standalone: true,
   imports: [],
-  templateUrl: './traffic.component.html',
-  styleUrl: './traffic.component.css',
+  templateUrl: './traffic.html',
+  styleUrl: './traffic.css',
 })
 export class TrafficComponent {
   dummyTrafficData = [

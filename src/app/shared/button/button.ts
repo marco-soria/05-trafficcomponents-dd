@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'button[appButton], a[appButton]',
   standalone: true,
   imports: [],
-  templateUrl: './button.component.html',
-  styleUrl: './button.component.css',
+  templateUrl: './button.html',
+  styleUrl: './button.css',
 })
 export class ButtonComponent {}

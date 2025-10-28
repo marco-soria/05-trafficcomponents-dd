@@ -6,8 +6,8 @@ import { Ticket } from '../ticket.model';
   selector: 'app-ticket',
   standalone: true,
   imports: [],
-  templateUrl: './ticket.component.html',
-  styleUrl: './ticket.component.css',
+  templateUrl: './ticket.html',
+  styleUrl: './ticket.css',
 })
 export class TicketComponent {
   // @Input({}) ...

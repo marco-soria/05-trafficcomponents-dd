@@ -14,8 +14,8 @@ import {
   selector: 'app-control',
   standalone: true,
   imports: [],
-  templateUrl: './control.component.html',
-  styleUrl: './control.component.css',
+  templateUrl: './control.html',
+  styleUrl: './control.css',
   encapsulation: ViewEncapsulation.None,
   host: {
     class: 'control',

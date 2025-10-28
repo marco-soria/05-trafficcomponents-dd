@@ -12,8 +12,8 @@ import {
   selector: 'app-server-status',
   standalone: true,
   imports: [],
-  templateUrl: './server-status.component.html',
-  styleUrl: './server-status.component.css',
+  templateUrl: './server-status.html',
+  styleUrl: './server-status.css',
 })
 export class ServerStatusComponent implements OnInit {
   currentStatus = signal<'online' | 'offline' | 'unknown'>('offline');

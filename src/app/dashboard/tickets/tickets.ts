@@ -1,14 +1,14 @@
 import { Component } from '@angular/core';
 
-import { NewTicketComponent } from './new-ticket/new-ticket.component';
+import { NewTicketComponent } from './new-ticket/new-ticket';
 import { Ticket } from './ticket.model';
-import { TicketComponent } from './ticket/ticket.component';
+import { TicketComponent } from './ticket/ticket';
 
 @Component({
   selector: 'app-tickets',
   standalone: true,
-  templateUrl: './tickets.component.html',
-  styleUrl: './tickets.component.css',
+  templateUrl: './tickets.html',
+  styleUrl: './tickets.css',
   imports: [NewTicketComponent, TicketComponent],
 })
 export class TicketsComponent {
